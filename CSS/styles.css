@@ -18,15 +18,12 @@ a {
 h1,h2,h3,h4 {
     margin:auto;
 }
-ul {
-    margin-right: 0;
-    margin-bottom: 0;
-}
+
 /* header  */
 
 .page-header {
     border-bottom: 1px solid #ECECEC;
-   
+    /* align-items: center; */
 }
 
 .container {
@@ -35,11 +32,13 @@ ul {
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    /* display: flex; */
-    align-items: center;
+    
+    
 }
 .page-header .container {
     display: flex;
+   
+    align-items: center;
 }
 .navigation {
    margin-right:auto
@@ -49,14 +48,15 @@ ul {
     display: flex;
     list-style: none;
     padding-left: 0;
+
 }
 .list-nav .item:not(:last-child) {
     margin-right:50px;
 }
 
 .link-nav {
-color: #212121;
-font-family: 'Roboto';
+    color: #212121;
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
